@@ -2,12 +2,10 @@ name: my-environment
 channels:
   - defaults
 dependencies:
-  - python=3.10
+  - python=3.8
   - numpy
   - pandas
-  - flake8
-  - pytest
-
-- name: Install dependencies
-  run: |
-    conda env update --file .github/workflows/python-package-conda.yml --name base
+  - scikit-learn
+  - pip
+  - pip:
+      - some-pip-package
