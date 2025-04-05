@@ -7,3 +7,7 @@ dependencies:
   - pandas
   - flake8
   - pytest
+
+- name: Install dependencies
+  run: |
+    conda env update --file .github/workflows/python-package-conda.yml --name base
