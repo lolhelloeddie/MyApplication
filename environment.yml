@@ -9,3 +9,4 @@ dependencies:
   - pip
   - pip:
       - correct-pip-package-name  # Replace with actual package name
+      - some-pip-package
