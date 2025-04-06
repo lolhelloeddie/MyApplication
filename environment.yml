@@ -8,5 +8,5 @@ dependencies:
   - scikit-learn
   - pip
   - pip:
-      - correct-pip-package-name  # Replace with actual package name
-      - some-pip-package
+      - pip install numpy pandas scikit-learn matplotlib seaborn # Replace with actual package name
+      - pip install torch transformers sentence-transformers
