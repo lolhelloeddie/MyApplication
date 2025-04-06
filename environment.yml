@@ -8,4 +8,4 @@ dependencies:
   - scikit-learn
   - pip
   - pip:
-#      - some-pip-package
+      - correct-pip-package-name  # Replace with actual package name
